@@ -1,0 +1,9 @@
+! 4/1/2020 Annoying COVID news release
+www.youtube.com###clarify-box
+
+! 4/2/2020 Giant COVID News release on videos page - needs refined, since the 'remove watched videos' uses the same
+www.youtube.com##:xpath(//h2[contains(text(), 'COVID-19')]/parent::div/parent::ytd-mealbar-promo-renderer/parent::paper-dialog)
+
+! 4/2/2020 Remove Coin purchasing shit
+www.reddit.com###COIN_PURCHASE_DROPDOWN_ID
+www.reddit.com##.PSG6gLueWddB1kqvaOxoT
