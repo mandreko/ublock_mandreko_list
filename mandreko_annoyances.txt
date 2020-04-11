@@ -7,3 +7,6 @@ www.youtube.com##:xpath(//h2[contains(text(), 'COVID-19')]/parent::div/parent::y
 ! 4/2/2020 Remove Coin purchasing shit
 www.reddit.com###COIN_PURCHASE_DROPDOWN_ID
 www.reddit.com##.PSG6gLueWddB1kqvaOxoT
+
+! 4/11/2020 Remove Ad Cards on front page
+www.thingiverse.com##div[class^="AdCard__card"]
