@@ -10,3 +10,7 @@ www.reddit.com##.PSG6gLueWddB1kqvaOxoT
 
 ! 4/11/2020 Remove Ad Cards on front page
 www.thingiverse.com##div[class^="AdCard__card"]
+
+! 4/20/2020 Remove COVID banner on top of Amazon
+smile.amazon.com###nav-upnav
+www.amazon.com###nav-upnav
