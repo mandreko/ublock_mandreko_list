@@ -14,3 +14,6 @@ www.thingiverse.com##div[class^="AdCard__card"]
 ! 4/20/2020 Remove COVID banner on top of Amazon
 smile.amazon.com###nav-upnav
 www.amazon.com###nav-upnav
+
+! 6/16/2020 Remove YouTube Live TV advertisement popup
+www.youtube.com##:xpath(//h2[contains(text(), 'Cable-free live TV is here')]/parent::div/parent::ytd-mealbar-promo-renderer/parent::paper-dialog)
