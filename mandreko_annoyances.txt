@@ -17,3 +17,6 @@ www.amazon.com###nav-upnav
 
 ! 6/16/2020 Remove YouTube Live TV advertisement popup
 www.youtube.com##:xpath(//h2[contains(text(), 'Cable-free live TV is here')]/parent::div/parent::ytd-mealbar-promo-renderer/parent::paper-dialog)
+
+! 7/10/2020 Remove Reddit PAN videos
+www.reddit.com##:xpath(//h3[contains(text(), 'Top broadcast right now')]/parent::a/parent::div/parent::div/parent::div/parent::div/parent::div/parent::div)
