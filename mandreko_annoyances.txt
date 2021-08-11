@@ -20,3 +20,12 @@ www.youtube.com##:xpath(//h2[contains(text(), 'Cable-free live TV is here')]/par
 
 ! 7/10/2020 Remove Reddit PAN videos
 www.reddit.com##:xpath(//h3[contains(text(), 'Top broadcast right now')]/parent::a/parent::div/parent::div/parent::div/parent::div/parent::div/parent::div)
+
+! 2020-12-11 https://old.reddit.com Remove the "Check out our beta re-design" section
+old.reddit.com###redesign-beta-optin-btn
+
+! 2021-01-12 https://old.reddit.com Remove the "Happening Now" section
+old.reddit.com##.happening-now
+
+! 2021-08-11 https://www.reddit.com Block the premium "Try Now" section
+www.reddit.com##button:has-text(/Try Now/):nth-ancestor(4)
