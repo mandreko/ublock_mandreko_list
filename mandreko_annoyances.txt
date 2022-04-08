@@ -29,3 +29,6 @@ old.reddit.com##.happening-now
 
 ! 2021-08-11 https://www.reddit.com Block the premium "Try Now" section
 www.reddit.com##button:has-text(/Try Now/):nth-ancestor(4)
+
+! 2022-04-08 https://www.youtube.com Block the YouTube TV section
+www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope
