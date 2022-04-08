@@ -18,9 +18,6 @@ www.amazon.com###nav-upnav
 ! 6/16/2020 Remove YouTube Live TV advertisement popup
 www.youtube.com##:xpath(//h2[contains(text(), 'Cable-free live TV is here')]/parent::div/parent::ytd-mealbar-promo-renderer/parent::paper-dialog)
 
-! 7/10/2020 Remove Reddit PAN videos
-www.reddit.com##:xpath(//h3[contains(text(), 'Top broadcast right now')]/parent::a/parent::div/parent::div/parent::div/parent::div/parent::div/parent::div)
-
 ! 2020-12-11 https://old.reddit.com Remove the "Check out our beta re-design" section
 old.reddit.com###redesign-beta-optin-btn
 
@@ -32,3 +29,6 @@ www.reddit.com##button:has-text(/Try Now/):nth-ancestor(4)
 
 ! 2022-04-08 https://www.youtube.com Block the YouTube TV section
 www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope
+
+! 2022-04-08 https://www.reddit.com Remove PAN videos
+www.reddit.com##:xpath(//h3[contains(text(), 'Top livestream')]/parent::a/parent::div/parent::div/parent::div/parent::div/parent::div/parent::div)
