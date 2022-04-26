@@ -32,3 +32,10 @@ www.youtube.com##ytd-rich-section-renderer.ytd-rich-grid-renderer.style-scope
 
 ! 2022-04-08 https://www.reddit.com Remove PAN videos
 www.reddit.com##:xpath(//h3[contains(text(), 'Top livestream')]/parent::a/parent::div/parent::div/parent::div/parent::div/parent::div/parent::div)
+
+! 2022-04-26 Hide "Clip" button on youtube to make space for date
+www.youtube.com##ytd-button-renderer.size-default.style-default.force-icon-button.ytd-menu-renderer.style-scope:nth-of-type(2)
+
+! 2022-04-26 Hide "Download" button on youtube (Requires premium)
+www.youtube.com##ytd-download-button-renderer.force-icon-button.size-default.style-default.ytd-menu-renderer.style-scope
+
