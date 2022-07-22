@@ -39,3 +39,5 @@ www.youtube.com##ytd-button-renderer.size-default.style-default.force-icon-butto
 ! 2022-04-26 Hide "Download" button on youtube (Requires premium)
 www.youtube.com##ytd-download-button-renderer.force-icon-button.size-default.style-default.ytd-menu-renderer.style-scope
 
+! 2022-07-22 Hide Odysee premium tiles
+odysee.com##li.card.claim-preview--premium-plus
