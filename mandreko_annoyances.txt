@@ -41,3 +41,10 @@ www.youtube.com##ytd-download-button-renderer.force-icon-button.size-default.sty
 
 ! 2022-07-22 Hide Odysee premium tiles
 odysee.com##li.card.claim-preview--premium-plus
+
+! 2022-11-08 https://marvelsnapzone.com
+marvelsnapzone.com##.ct-sidebar
+marvelsnapzone.com###sidebar
+
+! 2023-05-31 Hide Ad removal warning
+app.mobalytics.gg##aside
